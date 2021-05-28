@@ -22,6 +22,7 @@ return(
             inactiveTintColor: "#e46424",
             activeTintColor: "#fcc404"
             
+            
         }}
         screenOptions={({route}) => ({
             tabBarIcon:({color})=>screenOptions(route, color)
