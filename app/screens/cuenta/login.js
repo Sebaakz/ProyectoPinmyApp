@@ -6,6 +6,7 @@ import {View, Text} from "react-native";
 import { Divider } from "react-native-elements";
 import { ScrollView } from "react-native-gesture-handler";
 import {Register} from "./RegistroUser"
+import {KeyboardAwareScrollView} from "react-native-keyboard-aware-scroll-view";
 import LoginForm from "../../components/Account/LoginForm";
 
 
@@ -18,10 +19,10 @@ export default function Login(){
             resizeMode="contain"
             style={styles.logo}>
             </Image>
-            <View style={styles.viewContainer}>
+            <KeyboardAwareScrollView style={styles.viewContainer}>
             <LoginForm/>   
             <CreateAccount/>
-            </View>
+            </KeyboardAwareScrollView>
 
             <Divider style={styles.divider}/>
             <Text>Social Login</Text>
