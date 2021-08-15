@@ -1,4 +1,7 @@
 # ProyectoPinmyApp
+PinmyMap es un proyecto enfocado en la entrega de información geo referencial de los locales cercanos a un respectivo usuario. el proyecto consta de 3 sistemas los cuales van enfocados al administrador, usuario cliente y usuario dueño local
+
+
 Proyecto App PinmyMap desarrollado con react native,
 los siguientes comandos son necesarios para iniciar el proyecto:
 
